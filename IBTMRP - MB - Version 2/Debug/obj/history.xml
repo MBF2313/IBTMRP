@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -g2 -Wall -O0 -c -DSTM32F405ZG -D__FPU_USED -ID:\Documents\CU Boulder\Internal Body Temperature Research Platform\Source Code\Firmware\IBTMRP - MB - Version 2\IBTMRP\app\STM32F4xx_HAL_Driver\Inc -ID:\Documents\CU Boulder\Internal Body Temperature Research Platform\Source Code\Firmware\IBTMRP - MB - Version 2\IBTMRP\app\cmsis\Device\ST\STM32F4xx\Include -ID:\Documents\CU Boulder\Internal Body Temperature Research Platform\Source Code\Firmware\IBTMRP - MB - Version 2\IBTMRP\app\STM32F4xx_HAL_Driver\Inc\Legacy -ID:\Documents\CU Boulder\Internal Body Temperature Research Platform\Source Code\Firmware\IBTMRP - MB - Version 2\IBTMRP\app\cmsis\Device\ST\STM32F4xx -ID:\Documents\CU Boulder\Internal Body Temperature Research Platform\Source Code\Firmware\IBTMRP - MB - Version 2\IBTMRP\app\cmsis -ID:\Documents\CU Boulder\Internal Body Temperature Research Platform\Source Code\Firmware\IBTMRP - MB - Version 2\IBTMRP\app\cmsis\Include -ID:\Documents\CU Boulder\Internal Body Temperature Research Platform\Source Code\Firmware\IBTMRP - MB - Version 2\IBTMRP\app\STM32F4xx_HAL_Driver -ID:\Documents\CU Boulder\Internal Body Temperature Research Platform\Source Code\Firmware\IBTMRP - MB - Version 2\IBTMRP\app\FreeRTOS\portable\GCC -ID:\Documents\CU Boulder\Internal Body Temperature Research Platform\Source Code\Firmware\IBTMRP - MB - Version 2\IBTMRP -ID:\Documents\CU Boulder\Internal Body Temperature Research Platform\Source Code\Firmware\IBTMRP - MB - Version 2\IBTMRP\app\FreeRTOS\portable -ID:\Documents\CU Boulder\Internal Body Temperature Research Platform\Source Code\Firmware\IBTMRP - MB - Version 2\IBTMRP\app\FreeRTOS -ID:\Documents\CU Boulder\Internal Body Temperature Research Platform\Source Code\Firmware\IBTMRP - MB - Version 2\IBTMRP\app\FreeRTOS\CMSIS_RTOS -ID:\Documents\CU Boulder\Internal Body Temperature Research Platform\Source Code\Firmware\IBTMRP - MB - Version 2\IBTMRP\app\FreeRTOS\portable\GCC\ARM_CM4F -ID:\Documents\CU Boulder\Internal Body Temperature Research Platform\Source Code\Firmware\IBTMRP - MB - Version 2\IBTMRP\app\inc -ID:\Documents\CU Boulder\Internal Body Temperature Research Platform\Source Code\Firmware\IBTMRP - MB - Version 2\IBTMRP\app -ID:\Documents\CU Boulder\Internal Body Temperature Research Platform\Source Code\Firmware\IBTMRP - MB - Version 2\IBTMRP\app\cmsis\Device\ST -ID:\Documents\CU Boulder\Internal Body Temperature Research Platform\Source Code\Firmware\IBTMRP - MB - Version 2\IBTMRP\app\FreeRTOS\include">
+      <target file="freertos.o" lastModified="1560a823d14">
+         <source file="..\..\..\app\src\freertos.c" lastModified="15609eaad77"/>
+      </target>
+      <target file="stm32f4xx_hal_tim.o" lastModified="1560a8239f4">
+         <source file="..\..\..\app\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c" lastModified="156099bcea0"/>
+      </target>
+      <target file="stm32f4xx_hal_flash_ramfunc.o" lastModified="1560a823695">
+         <source file="..\..\..\app\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c" lastModified="156099bce80"/>
+      </target>
+      <target file="stm32f4xx_hal_flash.o" lastModified="1560a823b91">
+         <source file="..\..\..\app\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c" lastModified="156099bce7f"/>
+      </target>
+      <target file="queue.o" lastModified="1560a824323">
+         <source file="..\..\..\app\FreeRTOS\queue.c" lastModified="154cefaea6c"/>
+      </target>
+      <target file="stm32f4xx_hal_cortex.o" lastModified="1560a82409e">
+         <source file="..\..\..\app\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c" lastModified="156099bce72"/>
+      </target>
+      <target file="stm32f4xx_hal_dma_ex.o" lastModified="1560a823ec7">
+         <source file="..\..\..\app\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c" lastModified="156099bce7c"/>
+      </target>
+      <target file="timers.o" lastModified="1560a823be0">
+         <source file="..\..\..\app\FreeRTOS\timers.c" lastModified="154cefaea8a"/>
+      </target>
+      <target file="stm32f4xx_hal_rcc.o" lastModified="1560a823fb1">
+         <source file="..\..\..\app\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" lastModified="156099bce93"/>
+      </target>
+      <target file="stm32f4xx_hal_timebase_TIM.o" lastModified="1560a8247ba">
+         <source file="..\..\..\app\src\stm32f4xx_hal_timebase_TIM.c" lastModified="15609eaaf60"/>
+      </target>
+      <target file="tasks.o" lastModified="1560a823dca">
+         <source file="..\..\..\app\FreeRTOS\tasks.c" lastModified="154cefaea80"/>
+      </target>
+      <target file="stm32f4xx_hal_pwr.o" lastModified="1560a823c4f">
+         <source file="..\..\..\app\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c" lastModified="156099bce91"/>
+      </target>
+      <target file="stm32f4xx_hal_rcc_ex.o" lastModified="1560a823f32">
+         <source file="..\..\..\app\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c" lastModified="156099bce95"/>
+      </target>
+      <target file="stm32f4xx_hal_uart.o" lastModified="1560a8238e0">
+         <source file="..\..\..\app\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c" lastModified="156099bcea3"/>
+      </target>
+      <target file="stm32f4xx_hal_adc.o" lastModified="1560a8241c5">
+         <source file="..\..\..\app\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c" lastModified="156099bce6f"/>
+      </target>
+      <target file="stm32f4xx_hal.o" lastModified="1560a823e3d">
+         <source file="..\..\..\app\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c" lastModified="156099bce6e"/>
+      </target>
+      <target file="stm32f4xx_hal_dma.o" lastModified="1560a82483f">
+         <source file="..\..\..\app\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c" lastModified="156099bce7b"/>
+      </target>
+      <target file="event_groups.o" lastModified="1560a82449e">
+         <source file="..\..\..\app\FreeRTOS\event_groups.c" lastModified="154cefae60d"/>
+      </target>
+      <target file="stm32f4xx_hal_flash_ex.o" lastModified="1560a824027">
+         <source file="..\..\..\app\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c" lastModified="156099bce80"/>
+      </target>
+      <target file="stm32f4xx_hal_i2c_ex.o" lastModified="1560a824438">
+         <source file="..\..\..\app\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c" lastModified="156099bce88"/>
+      </target>
+      <target file="croutine.o" lastModified="1560a8243da">
+         <source file="..\..\..\app\FreeRTOS\croutine.c" lastModified="154cefae60d"/>
+      </target>
+      <target file="list.o" lastModified="1560a8240f2">
+         <source file="..\..\..\app\FreeRTOS\list.c" lastModified="154cefae65a"/>
+      </target>
+      <target file="heap_4.o" lastModified="1560a823582">
+         <source file="..\..\..\app\FreeRTOS\portable\MemMang\heap_4.c" lastModified="154cefae92b"/>
+      </target>
+      <target file="port.o" lastModified="1560a8242a0">
+         <source file="..\..\..\app\FreeRTOS\portable\GCC\ARM_CM4F\port.c" lastModified="154cefae70e"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1560a823a27">
+         <source file="..\..\..\app\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1560a6589d6"/>
+      </target>
+      <target file="stm32f4xx_hal_i2c.o" lastModified="1560a8237c2">
+         <source file="..\..\..\app\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c" lastModified="156099bce87"/>
+      </target>
+      <target file="stm32f4xx_hal_tim_ex.o" lastModified="1560a8245a2">
+         <source file="..\..\..\app\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c" lastModified="156099bcea2"/>
+      </target>
+      <target file="stm32f4xx_hal_spi.o" lastModified="1560a823638">
+         <source file="..\..\..\app\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c" lastModified="156099bce9d"/>
+      </target>
+      <target file="cmsis_os.o" lastModified="1560a82424e">
+         <source file="..\..\..\app\FreeRTOS\CMSIS_RTOS\cmsis_os.c" lastModified="156099bd473"/>
+      </target>
+      <target file="stm32f4xx_hal_msp.o" lastModified="1560a823837">
+         <source file="..\..\..\app\src\stm32f4xx_hal_msp.c" lastModified="15609eaaf48"/>
+      </target>
+      <target file="stm32f4xx_it.o" lastModified="1560a823b1b">
+         <source file="..\..\..\app\src\stm32f4xx_it.c" lastModified="15609eaaeb5"/>
+      </target>
+      <target file="stm32f4xx_hal_gpio.o" lastModified="1560a824395">
+         <source file="..\..\..\app\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c" lastModified="156099bce82"/>
+      </target>
+      <target file="main.o" lastModified="1560a823aad">
+         <source file="..\..\..\app\src\main.c" lastModified="15609eaafba"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="1560a824136">
+         <source file="..\..\..\app\cmsis\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c" lastModified="156099bc86b"/>
+      </target>
+      <target file="stm32f4xx_hal_pwr_ex.o" lastModified="1560a824506">
+         <source file="..\..\..\app\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c" lastModified="156099bce91"/>
+      </target>
+      <target file="stm32f4xx_hal_adc_ex.o" lastModified="1560a823cd2">
+         <source file="..\..\..\app\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c" lastModified="156099bce70"/>
+      </target>
+   </processor>
+</history>
